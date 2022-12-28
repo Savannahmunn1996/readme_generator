@@ -53,6 +53,14 @@ const questions = [
 //fs.writefile("./README.md", JSON.stringify(Marked.generateMarkdown), (err) =>
 //err ? console.error(err) : console.log("Success!")
 //);
+// const mark = markDown.generateReadme(answers);
+// fs.writeFile("README.md", mark, (err) => {
+//   if (err) {
+//     console.log("could not save this file, sorry.");
+//   } else {
+//     console.log("YAY! README.md file created!");
+//   }
+// });
 
 // TODO: Create a function to initialize app
 async function init() {
@@ -60,10 +68,8 @@ async function init() {
     .prompt(questions)
     .then((answers) => {
       const mark = markDown.generateReadme(answers);
-      console.log(mark);
-      return answers;
 
-      fs.writeFile("README.md", mark, (err) => {
+      fs.writeFile("README.md", mark, function (err) {
         if (err) {
           console.log("could not save this file, sorry.");
         } else {

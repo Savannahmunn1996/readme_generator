@@ -12,6 +12,16 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 class markDown {
+  // static giveBadge (license) {
+  //  const badges={
+  //   MIT:
+  //   ISC:
+  //   GNUPLv3:
+  // }
+  //  return badges[license]
+
+  // }
+
   static generateReadme(answers) {
     return `# ${answers.title}
 
