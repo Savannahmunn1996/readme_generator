@@ -1,5 +1,6 @@
-# readme gen
-
+# p
+  ![License: gnuplv3!](https://img.shields.io/badge/License-GPLv3-blue.svg
+  
   ##Table of Contents
   -[Description](#Description)
   -[Installation](#Installation)
@@ -9,20 +10,20 @@
   -[License](#License)
 
   ## Description
-  test
+  p
   
   ## Installation
-  test
+  p
 
   ## Usage
-  test
+  p
 
   ## Contributions
-  test
+  p
 
   ## Contact
-  test
+  p
 
   ## License
-  mit
+  gnuplv3
 

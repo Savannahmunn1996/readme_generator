@@ -12,19 +12,32 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 class markDown {
-  // static giveBadge (license) {
-  //  const badges={
-  //   MIT:
-  //   ISC:
-  //   GNUPLv3:
-  // }
-  //  return badges[license]
-
-  // }
+  static giveBadge(answers) {
+    //  const badges={
+    //   MIT:"https://img.shields.io/badge/License-MIT-yellow.svg"
+    //   ISC:
+    //   GNUPLv3:
+    // }
+    //  return badges[license]
+    console.log("here is answers.License: ", answers.License);
+    if (answers.License === "mit") {
+      console.log("MIT if statement works!");
+      return "![License: MIT!](https://img.shields.io/badge/License-MIT-yellow.svg)";
+    }
+    if (answers.License === "apache") {
+      console.log("apache if statement works!");
+      return "![License: Apache!](https://img.shields.io/badge/License-Apache%202.0-blue.svg";
+    }
+    if (answers.License === "gnuplv3") {
+      console.log("gn if statement works!");
+      return "![License: gnuplv3!](https://img.shields.io/badge/License-GPLv3-blue.svg";
+    }
+  }
 
   static generateReadme(answers) {
     return `# ${answers.title}
-
+  ${markDown.giveBadge(answers)}
+  
   ##Table of Contents
   -[Description](#Description)
   -[Installation](#Installation)

@@ -42,7 +42,7 @@ const questions = [
     type: "list",
     message: "License?",
     name: "License",
-    choices: ["MIT", "ISC", "GNUPLv3"],
+    choices: ["MIT", "APACHE", "GNUPLv3"],
     filter(val) {
       return val.toLowerCase();
     },
