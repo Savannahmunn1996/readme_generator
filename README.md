@@ -1,5 +1,5 @@
-# j
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# test run
+  ![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg
   
   ##Table of Contents
   -[Description](#Description)
@@ -10,20 +10,23 @@
   -[License](#License)
 
   ## Description
-  j
+  a test run
   
   ## Installation
-  j
+  node index command in terminal
 
   ## Usage
-  j
+  creating readme
 
   ## Contributions
-  j
+  none
+
+  ## Tests
+  by checking code
 
   ## Contact
-  j
+  savannahmunn1996@gmail.com
 
   ## License
-  mit
+  apache
 

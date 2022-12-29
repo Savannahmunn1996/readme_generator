@@ -31,6 +31,11 @@ const questions = [
     message: "Contributions?",
     name: "Contributions",
   },
+  {
+    type: "input",
+    message: "How can we test?",
+    name: "Test",
+  },
 
   {
     type: "input",

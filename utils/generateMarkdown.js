@@ -58,6 +58,9 @@ class markDown {
   ## Contributions
   ${answers.Contributions}
 
+  ## Tests
+  ${answers.Test}
+
   ## Contact
   ${answers.Contact}
 
