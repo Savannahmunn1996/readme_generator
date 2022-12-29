@@ -1,5 +1,5 @@
-# p
-  ![License: gnuplv3!](https://img.shields.io/badge/License-GPLv3-blue.svg
+# k
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
   
   ##Table of Contents
   -[Description](#Description)
@@ -10,20 +10,20 @@
   -[License](#License)
 
   ## Description
-  p
+  k
   
   ## Installation
-  p
+  k
 
   ## Usage
-  p
+  k
 
   ## Contributions
-  p
+  k
 
   ## Contact
-  p
+  k
 
   ## License
-  gnuplv3
+  mit
 

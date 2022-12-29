@@ -22,15 +22,15 @@ class markDown {
     console.log("here is answers.License: ", answers.License);
     if (answers.License === "mit") {
       console.log("MIT if statement works!");
-      return "![License: MIT!](https://img.shields.io/badge/License-MIT-yellow.svg)";
+      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
     }
     if (answers.License === "apache") {
       console.log("apache if statement works!");
-      return "![License: Apache!](https://img.shields.io/badge/License-Apache%202.0-blue.svg";
+      return "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg]";
     }
     if (answers.License === "gnuplv3") {
       console.log("gn if statement works!");
-      return "![License: gnuplv3!](https://img.shields.io/badge/License-GPLv3-blue.svg";
+      return "[![License: gnuplv3](https://img.shields.io/badge/License-GPLv3-blue.svg]";
     }
   }
 
