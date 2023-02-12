@@ -17,6 +17,8 @@
 
   ## Usage
  simply open terminal and use command 'node index'
+ 
+ https://www.loom.com/share/65691ba4fe324ab88ef4a114d1d42ca2
 
   ## Contributions
   n/a
