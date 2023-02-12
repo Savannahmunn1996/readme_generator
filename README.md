@@ -10,22 +10,23 @@
   -[License](#License)
 
   ## Description
-  k
+  This application was created so the developers could generate readMe files with ease.
   
   ## Installation
-  k
+  clone this to your local device
 
   ## Usage
-  l
+ simply open terminal and use command 'node index'
 
   ## Contributions
-  d
+  n/a
 
   ## Tests
-  s
+  node index
+  test.js files can be added in future
 
   ## Contact
-  s
+  Savannahmunn1996@gmail.com
 
   ## License
   mit
